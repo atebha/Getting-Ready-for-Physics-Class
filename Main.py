@@ -44,3 +44,16 @@ def get_energy(mass, c):
 # Test energy function
 bomb_energy = get_energy(bomb_mass, c)
 print(f'A 1kg bomb supplies {bomb_energy} Joules of energy.')
+
+
+# Step 11 - 13
+
+# Function for work calculation
+def get_work(mass, acceleration, distance):
+    force = get_force(mass, acceleration)
+    return force * distance
+
+# Test work function
+train_work = get_work(train_mass, train_acceleration, train_distance)
+
+print(f'The GE train does {train_work} Joules of work over {train_distance} meters.')
