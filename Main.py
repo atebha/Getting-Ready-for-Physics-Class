@@ -34,7 +34,7 @@ print(f'The GE train supplies {train_force} Newtons of force.')
 
 # Step 8 -10
 
-# Set Constant value
+# Set Constant Value
 c= 3*10**8
 
 # Function for energy calculation
