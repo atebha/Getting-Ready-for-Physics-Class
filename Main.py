@@ -29,3 +29,5 @@ def get_force(mass, acceleration):
 # Save force value to variable
 train_force = get_force(train_mass, train_acceleration)
 print(train_force)
+
+print(f'The GE train supplies {train_force} Newtons of force.')
